@@ -1,0 +1,18 @@
+# --- secrets: NEVER commit these ---
+.env
+*.key
+
+# --- python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- data: only the final labeled.csv is committed; raw scrapes stay local ---
+data/*.csv
+!data/labeled.csv
+
+# --- OS / editor / local tooling ---
+.DS_Store
+.ipynb_checkpoints/
+.claude/

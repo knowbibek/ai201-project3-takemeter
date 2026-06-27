@@ -1,0 +1,5 @@
+# The data-prep scripts (merge_raw.py, build_dataset.py) use only the Python
+# standard library — nothing to install locally.
+#
+# Fine-tuning + the Groq baseline run on Google Colab, which pre-installs
+# transformers / datasets / scikit-learn / groq. See notebook (Colab) for those.
